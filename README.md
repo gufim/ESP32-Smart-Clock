@@ -30,3 +30,6 @@ A high-efficiency, advanced LED Matrix clock project featuring a wireless outdoo
 
 ---
 *Developed with passion on Linux Mint KDE.*
+
+## Video Demo
+[![Watch the video](https://img.youtube.com/vi/ID_FILMU/0.jpg)](https://www.youtube.com/watch?v=ttarTMbDBVQ)
