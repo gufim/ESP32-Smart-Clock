@@ -1,18 +1,31 @@
-🚀 Changelog
-Version V2.0
+---
 
-    Improved Sensor Connectivity: Refactored the core communication logic between the external sensor and the clock for rock-solid stability.
+## 🆙 What's New in Version 2.0
 
-    Visual & UI Fixes: Enhanced the display layouts, fixed rendering bugs, and polished individual module icons.
+> [!NOTE]
+> This major update focuses on connection stability, user experience, and automated time management.
 
-    Local WiFi & STA Mode Support: Added the ability to connect the clock to your home WiFi network. The system now operates efficiently in dual AP + STA mode.
+### 🛠️ Key Improvements & Features
 
-    Interactive Status & IP Scroller: Pressing both hardware buttons simultaneously now triggers a smooth scrolling text displaying the current network mode and the configuration page IP address.
+*   **⚡ Rock-Solid Connectivity**
+    *   Complete refactoring of the communication layer between the external sensor and the clock.
+    *   Eliminated packet drops and improved ESP-NOW stability.
+*   **🎨 Visual & Graphics Polishing**
+    *   Enhanced layout alignment for individual modules.
+    *   Fixed rendering glitches and polished custom font icons (battery, RSSI, and weather symbols).
+*   **🌐 Local WiFi & Dual-Mode (STA + AP)**
+    *   Added full support for connecting the clock to your home WiFi router.
+    *   The system now operates seamlessly in **AP + STA mode**, allowing local web config and background internet data access at the same time.
 
-    NTP Time Synchronization: Introduced automatic time synchronization via NTP servers to keep the RTC highly accurate.
+### 🖱️ New Interactive Controls & Web Features
 
-    Time Zone Adjustment: Added a web interface feature to easily correct and shift your local UTC time zone.
+| Feature | Description |
+| :--- | :--- |
+| **Dual-Button Shortcut** | Pressing both hardware buttons simultaneously triggers a smooth scrolling text on the LED matrix, showing the active network mode and the current Web Server IP address. |
+| **NTP Time Sync** | Automated real-time synchronization with global NTP servers (`pool.ntp.org` / `time.google.com`) to prevent RTC time drifting. |
+| **Time Zone Settings** | Easily adjust and save your UTC time zone directly through the web interface to automatically handle regional time shifts. |
 
+---
 
 # ESP32-C3 Smart Clock & ESP32-S3 Outdoor Sensor
 
