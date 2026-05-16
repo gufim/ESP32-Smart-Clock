@@ -1,3 +1,19 @@
+🚀 Changelog
+Version V2.0
+
+    Improved Sensor Connectivity: Refactored the core communication logic between the external sensor and the clock for rock-solid stability.
+
+    Visual & UI Fixes: Enhanced the display layouts, fixed rendering bugs, and polished individual module icons.
+
+    Local WiFi & STA Mode Support: Added the ability to connect the clock to your home WiFi network. The system now operates efficiently in dual AP + STA mode.
+
+    Interactive Status & IP Scroller: Pressing both hardware buttons simultaneously now triggers a smooth scrolling text displaying the current network mode and the configuration page IP address.
+
+    NTP Time Synchronization: Introduced automatic time synchronization via NTP servers to keep the RTC highly accurate.
+
+    Time Zone Adjustment: Added a web interface feature to easily correct and shift your local UTC time zone.
+
+
 # ESP32-C3 Smart Clock & ESP32-S3 Outdoor Sensor
 
 A high-efficiency, advanced LED Matrix clock project featuring a wireless outdoor temperature station. 
